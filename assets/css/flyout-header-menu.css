@@ -21,14 +21,14 @@
 .menu-bar > span {
 	width: 44px;
 	height: 5px;
-	background: var(--brownBg);
+	background: var(--color);
 	display: block;
 	position: relative;
 }
 .menu-bar > span::after {
 	width: 70%;
 	height: 5px;
-	background: var(--brownBg);
+	background: var(--color);
 	display: block;
 	position: absolute;
 	top: 8px;
@@ -89,7 +89,7 @@ span.time {
 	display: block;
 	background: var(--brownBg);
 	/* background: linear-gradient(to right, #4b134f, #c94b4b); */
-	background: linear-gradient(to right, #4b134f, #581313, var(--brownBg), #633131);
+	background: linear-gradient(to right, #4b134f, #581313, var(--background), #633131);
 	transition: all 0.4s linear;
 	opacity: 0;
 	visibility: hidden;
