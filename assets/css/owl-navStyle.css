@@ -1,0 +1,47 @@
+.owl-nav {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+.owl-nav > button {
+	width: 54px;
+	height: 54px;
+	display: inline-block;
+	margin-right: 0px;
+	color: var(--white) !important;
+	background: var(--brownBg) !important;
+	border-radius: 50%;
+}
+.owl-nav > button.owl-next {
+	width: 54px;
+	height: 54px;
+	display: inline-block;
+	margin-right: 0px;
+	color: var(--white) !important;
+	background: var(--heading) !important;
+	border-radius: 50%;
+}
+
+.owl-dots {
+	display: flex !important;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+.owl-dots > button {
+	display: inline-block;
+	width: 50px;
+	height: 18px;
+	border-radius: 50px;
+	margin-right: 5px;
+	background: var(--brownBg) !important;
+}
+.owl-dots > button.owl-dot.active {
+	background: #d1b75e !important;
+}
+.owl-dots > span {
+	display: inline-block;
+	width: inherit;
+	height: inherit;
+	background: inherit;
+}

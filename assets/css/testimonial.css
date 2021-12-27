@@ -1,0 +1,41 @@
+/* testimonial client feedback section start styles  */
+.testimonial-container {
+	display: block;
+}
+.testimonial-caro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item-caro {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.item-caro:last-child {
+	margin-right: 0px;
+}
+.item-caro .massage {
+	margin-bottom: 20px;
+	border: 1px solid #1d1d1d;
+}
+.item-caro .massage > .dspn {
+	padding: 10px;
+}
+.client-bio {
+	margin-left: 20px;
+}
+.client-bio .client-name {
+	font-size: 17px;
+	text-transform: capitalize;
+	color: #23242a;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.client-bio .client-designation {
+	font-family: "Roboto";
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #1d1d1d;
+	margin: 0;
+	padding: 0;
+}
