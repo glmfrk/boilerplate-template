@@ -2,8 +2,8 @@
     Template Name: ...
     Template URI: https://---.com
     Description: ...
-    Author: ...
-    Author URI: https://---.com
+    Author: Gulam Faruk
+    Author URI: https://www.facebook.com/gulamfrk/
     Version: 1.0
     Tags: theme, template, etc
 ---------------------------------------*/
@@ -111,6 +111,70 @@ figure {
 	width: 100%;
 }
 
+:root {
+	--color: #470005;
+	--background: #470005;
+	--white: #ffffff;
+	--black: #1d1d1d;
+	--border:#f4f1c38e;
+	--main: #f4f1c3;
+	--overlay2: #f4f1c38e;
+	--overlay: #470005f2;
+
+	/* text variable  */
+	--headingTextStyle: uppercase;
+	--heading3TextStyle: capitalize;
+	--heading4TextStyle: capitalize;
+	--heading5TextStyle: lowercase;
+	--heading6TextStyle: lowercase;
+	--paraTextStyle: normal;
+
+	/* headingh3 variable  */
+	--headinghFont: "Poppins";
+	--headinghFontSize: 45px;
+	--headinghBold: 700;
+	--headinghColor: #0c0b0e;
+
+	/* headingh3 variable  */
+	--headingh3Font: "Poppins";
+	--headingh3FontSize: 36px;
+	--headingh3Bold: 600;
+	--headingh3Color: #0c0b0e;
+
+	/* headingh4 variable  */
+	--headingh4Font: "Poppins";
+	--headingh4FontSize: 29px;
+	--headingh4Bold: 500;
+	--headingh4Color: #0c0b0e;
+
+	/* paragrapgh variable  */
+	--dspnFont: "Poppins";
+	--dspnFontSize: 16px;
+	--dspnBold: 400;
+	--dspnColor: #0c0b0e;
+
+	/* button color  */
+	--btnColor:#ffffff;
+	--btnBG:#470005;
+
+	/* button hover styles  */
+	--hoverColorBtn:#0c0b0e;
+	--hoverBgBtn:#ffffff;
+	--borderBtn:#470005;
+}
+
+/* animation styles  */
+@keyframes beat {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2);
+	}
+}
 
 
 /**
@@ -122,7 +186,6 @@ figure {
  * 
  * 
  */
-
 
 
  /* main content body basic styles  */
@@ -145,8 +208,12 @@ figure {
 	margin-bottom: 65px;
 }
 .heading {
-	font-size: 40px;
-	text-transform: capitalize;
+	font-family: var(--headinghFont);
+	font-size: var(--headinghFontSize);
+	font-weight: var(--headinghBold);
+	text-transform: var(--capitalize);
+	text-transform: var(--headingTextStyle);
+
 	color: var(--heading);
 }
 .heading-box > .dspn {
@@ -159,11 +226,11 @@ figure {
 
 	margin: 0;
 	padding: 0;
-	font-weight: 400;
 	color: var(--dspnColor);
 	font-family: var(--dspnFont);
 	font-size: var(--dspnFontSize);
-
+	font-weight: var(--dspnBold);
+	text-transform: var(--paraTextStyle);
 
 }
 .hero-dspn{
